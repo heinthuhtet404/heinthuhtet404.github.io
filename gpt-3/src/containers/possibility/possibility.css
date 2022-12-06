@@ -1,0 +1,179 @@
+.possibility {
+    margin: 0 8rem 3rem 8rem;
+}
+
+.possibility__mom {
+    display: flex;
+
+}
+
+.possibility__mom__logo {
+   width: 500px;
+   height: 500px;
+}
+
+.possibility__mom__content {
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+
+.possibility__mom__content p {
+    margin: 0.7rem 0;
+}
+
+.mini {
+    width: 271px;
+height: 30px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+
+color: #71E5FF;
+
+}
+
+.title {
+    width: 426px;
+height: 90px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+line-height: 45px;
+/* or 132% */
+
+
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%), #FFFFFF;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.paragraph {
+    width: 479px;
+height: 120px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+
+
+color: #81AFDD;
+
+}
+
+.mini-two {
+    width: 271px;
+height: 30px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+
+color: #FF8A71;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .possibility {
+        margin: 0 5rem 2rem 5rem;
+    }
+
+    .possibility__mom__logo {
+        width: 400px;
+        height: 400px;
+    }
+
+    .possibility__mom__content {
+        margin: 5rem 0 0 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .possibility__mom__logo {
+        width: 300px;
+        height: 300px;
+    }
+
+    .mini {
+        font-size: 12px;
+        line-height: 24px;
+        
+    }
+
+    .title {
+        font-size: 22px;
+        line-height: 30px;
+        width: 380px;
+    }
+
+    .paragraph {
+        font-size: 12px;
+        line-height: 22px;
+        width: 350px;
+    }
+
+    .mini-two {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .possibility__mom__content p {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .possibility {
+        margin: 0;
+    }
+
+    .possibility__mom {
+        flex-direction: column;
+    }
+
+    .possibility__mom__content {
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .possibility__mom__content p {
+        margin: 0;
+    }
+
+    .mini {
+        font-size: 10px;
+        line-height: 20px;
+        
+    }
+
+    .title {
+        font-size: 18px;
+        line-height: 25px;
+        width: 300px;
+    }
+
+    .paragraph {
+        font-size: 10px;
+        line-height: 20px;
+        width: 300px;
+    }
+
+    .mini-two {
+        font-size: 10px;
+        line-height: 20px;
+    }
+}

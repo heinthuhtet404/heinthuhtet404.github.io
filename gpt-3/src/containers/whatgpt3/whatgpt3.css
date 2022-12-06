@@ -1,0 +1,217 @@
+.what {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem 3rem 5rem;
+    background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    padding: 4rem;
+}
+
+.what__first,
+.what__second {
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+}
+
+.what__first__title {
+    width: 400px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 75px;
+    /* identical to box height, or 312% */
+
+    letter-spacing: -0.04em;
+
+    color: #FFFFFF;
+}
+
+.what__first__paragraph {
+    width: 900px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+
+
+color: #81AFDD;
+}
+
+.what__second__title {
+    width: 500px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+line-height: 45px;
+/* or 132% */
+
+
+background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.what__second__paragraph {
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+
+color: #FF8A71;
+}
+
+.what__third {
+    justify-content: space-between;
+    display: flex;
+    margin: 0;
+}
+
+.what__third__one__title,
+.what__third__two__title,
+.what__third__three__title {
+    width: 105px;
+height: 75px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 75px;
+/* identical to box height, or 312% */
+
+letter-spacing: -0.04em;
+
+color: #FFFFFF;
+}
+
+.what__third__one__paragraph,
+.what__third__two__paragraph,
+.what__third__three__paragraph {
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+
+
+color: #81AFDD;
+
+}
+
+.what__third__one,
+.what__third__two,
+.what__third__three {
+    width: 300px;
+    margin: 0 1rem;
+}
+
+@media  screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    .what__first__title,
+    .what__third__one__title,
+    .what__third__two__title,
+    .what__third__three__title {
+        font-size: 18px;
+    }
+
+    .what__first__paragraph,
+    .what__second__paragraph,
+    .what__third__one__paragraph,
+    .what__third__two__paragraph,
+    .what__third__three__paragraph {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .what__second__title {
+        width: 380px;
+        font-size: 25px;
+    }
+
+    .what {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .what {
+        margin: 0;
+        padding: 0 0 1rem 0;
+    }
+
+    .what__first {
+        display: flex;
+        flex-direction: column;
+        margin: 0 1rem 1rem 1rem;
+    }
+
+    .what__first__paragraph {
+        width: 100%;
+    }
+
+    .what__first__title {
+        font-size: 10px;
+    }
+
+    .what__third {
+        flex-direction: column;
+    }
+
+    .what__third__one__paragraph,
+    .what__third__two__paragraph,
+    .what__third__three__paragraph {
+        width: 260px;
+    }
+
+    .what__second__title {
+        line-height: 30px;
+        width: 100%;
+    }
+
+    .what__second {
+        display: flex;
+        flex-direction: column;
+        margin: 0 1rem 1rem 1rem;
+    }
+
+    .what__second__paragraph {
+        margin: 1rem 0 -1rem 0;
+    }
+
+    .what__first__title {
+        width: 100%;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,105 @@
+.footer {
+    margin: 6rem 0 0 0;
+    padding: 5rem 10rem ;
+    background: #031B34;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.titlef {
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 62px;
+line-height: 75px;
+/* or 121% */
+
+text-align: center;
+letter-spacing: -0.04em;
+
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.boxx {
+    color: white;
+    margin: 3rem 0;
+    border: 2px solid white;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+}
+
+.container-one,
+.container-two,
+.container-three,
+.container-four {
+    width: 25%;
+}
+
+.para {
+    
+font-family: 'Gilroy-Medium';
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+
+.dad {
+
+font-family: 'Gilroy-Bold';
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.baby {
+    font-family: 'Gilroy-Medium';
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+
+}
+
+.container-one p,
+.container-two p,
+.container-three p,
+.container-four p {
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 768px) {
+    .titlef {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        padding: 2rem 1rem;
+        margin: 4rem 0 0 0;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container-one,
+    .container-two,
+    .container-three,
+    .container-four {
+        width: 100%;
+        margin: 0.7rem;
+    }
+}

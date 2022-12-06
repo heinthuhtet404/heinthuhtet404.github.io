@@ -1,0 +1,31 @@
+.brand__mom {
+    display: flex;
+    padding: 3rem 0rem;
+    margin: 0 20rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .brand__mom {
+        margin: 0 10rem;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .brand__mom {
+        margin: 0 5rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .brand__mom {
+        padding: 1rem 0;
+        flex-direction: column;
+    }
+
+    .brand__mom img {
+        padding: 1.2rem;
+    }
+}
